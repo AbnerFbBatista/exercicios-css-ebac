@@ -1,0 +1,30 @@
+#como-funciona {
+    background: $font-color-primary;
+}
+
+#como-funciona article p {
+    font-size: 18px;
+    margin: 0 3;
+}
+
+#como-funciona article h1 {
+    margin: 0;
+}
+
+.steps {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    &__item {
+        margin: 1rem;
+        width: calc(80% / 5 - 1rem);
+        text-align: center;
+        span {
+            color: $color-secondary;
+        }
+    }
+
+}
